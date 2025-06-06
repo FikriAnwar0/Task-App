@@ -82,9 +82,6 @@ export const EditTaskDialog = ({ task, isOpen, onClose, onSave, isDarkMode }: Ed
       tags: prev.tags.filter((tag) => tag !== tagToRemove),
     }))
   }
-
-
-  // fungsi 
   
   const inputClasses = isDarkMode
     ? "bg-slate-700/50 border-slate-600 text-white placeholder:text-gray-400"
