@@ -73,20 +73,38 @@
 
 ## 📁 Struktur Direktori
 
-TaskEasy/
-├── app/ # Routing & halaman utama
-├── components/ # Komponen UI (TaskList, TaskForm, dll)
-├── hooks/ # Custom React hooks
-├── lib/ # Logic penyimpanan localStorage
-├── public/images/ # Screenshot & aset publik
-├── styles/ # Konfigurasi global Tailwind
-├── types/ # Definisi tipe data TypeScript
-├── utils/ # Helper functions
-├── tests/ # Unit testing (Jest)
-├── .github/workflows/ # CI pipeline
-├── package.json # Dependency management
-└── tailwind.config.ts # Tailwind config
+## 📁 Struktur Direktori
 
+```plaintext
+TaskEasy/
+├── app/
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── TaskForm.tsx
+│   ├── TaskList.tsx
+│   └── TaskItem.tsx
+├── hooks/
+│   └── useTasks.ts
+├── lib/
+│   └── taskStorage.ts
+├── public/
+│   └── images/
+│       └── screenshot-homepage.png
+├── styles/
+│   └── globals.css
+├── types/
+│   └── task.ts
+├── utils/
+│   └── helpers.ts
+├── tests/
+│   ├── TaskForm.test.tsx
+│   └── TaskList.test.tsx
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── package.json
+└── tailwind.config.ts
 ---
 
 ## 🚀 Menjalankan Aplikasi Lokal
