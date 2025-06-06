@@ -24,8 +24,7 @@
 ## 📸 Cuplikan Aplikasi
 
 <p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/4bbae90b-d87b-4834-9014-e544f1b496dc)
-" alt="Tampilan TaskEasy" width="100%" style="border-radius: 8px; box-shadow: 0px 4px 12px rgba(0,0,0,0.1);"/>
+  <img src="https://github.com/user-attachments/assets/4bbae90b-d87b-4834-9014-e544f1b496dc" alt="Tampilan TaskEasy" width="100%" style="border-radius: 8px; box-shadow: 0px 4px 12px rgba(0,0,0,0.1);"/>
 </p>
 
 ---
