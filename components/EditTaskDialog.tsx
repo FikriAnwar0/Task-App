@@ -92,7 +92,7 @@ export const EditTaskDialog = ({ task, isOpen, onClose, onSave, isDarkMode }: Ed
       <DialogContent
         className={`
           ${isDarkMode ? "bg-slate-800/95 border-slate-700" : "bg-white/95 border-gray-200"} 
-          backdrop-blur-xl max-w-2xl transition-all duration-300
+          backdrop-blur-xl max-w-md transition-all duration-300 p-6
         `}
       >
         <DialogHeader>
@@ -107,7 +107,7 @@ export const EditTaskDialog = ({ task, isOpen, onClose, onSave, isDarkMode }: Ed
           </DialogDescription>
         </DialogHeader>
 
-        <div className="space-y-6 py-4">
+        <div className="space-y-4 py-2">
           {/* Title */}
           <div className="space-y-2">
             <Label htmlFor="edit-title" className="text-sm font-medium flex items-center gap-2">
@@ -208,7 +208,7 @@ export const EditTaskDialog = ({ task, isOpen, onClose, onSave, isDarkMode }: Ed
           </div>
 
           {/* Priority and Status */}
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-2">
             <div className="space-y-2">
               <Label className="text-sm font-medium flex items-center gap-2">
                 <Flame className="h-4 w-4 text-orange-500" />
