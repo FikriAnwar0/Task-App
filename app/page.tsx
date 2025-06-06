@@ -54,7 +54,6 @@ export default function TaskFlowApp() {
       filtered = filtered.filter((task) => task.status === currentFilter)
     }
 
-    // Apply search query - Enhanced search
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase().trim()
       filtered = filtered.filter((task) => {
@@ -121,7 +120,6 @@ export default function TaskFlowApp() {
 
     const style = notificationStyles[type]
 
-    // Use the appropriate notification function based on type
     switch (type) {
       case "success":
         showSuccess(title, message, {
@@ -153,7 +151,6 @@ export default function TaskFlowApp() {
         break
     }
 
-    // Also add to notifications system
     addNotification(title, message, type)
   }
 
