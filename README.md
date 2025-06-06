@@ -1,152 +1,121 @@
-<h1 align="center">🚀 TaskEasy – Aplikasi Manajemen Tugas Sederhana</h1>
+<h1 align="center">🚀 TaskEasy – Aplikasi Manajemen Tugas Modern</h1>
+
 <p align="center">
-  <em>Dibuat oleh: Fikri Anwar (NIM 231112145) | Mata Kuliah: Extreme Programming</em><br/>
-  <strong>Demo Langsung ➝</strong> <a href="https://task-app-snowy-seven.vercel.app/" target="_blank">task-app-snowy-seven.vercel.app</a>
+  <em>Dibuat oleh: Fikri Anwar (NIM 231112145) – Extreme Programming</em><br/>
+  🌐 <strong>Live Demo:</strong> <a href="https://task-app-snowy-seven.vercel.app/" target="_blank">task-app-snowy-seven.vercel.app</a>
 </p>
 
----
-
-## 🎯 Ringkasan Proyek
-
-**TaskEasy** adalah aplikasi web manajemen tugas ringan yang dibangun dalam waktu **satu minggu** dengan menerapkan metodologi **Extreme Programming (XP)** secara menyeluruh. Aplikasi ini bertujuan untuk memudahkan pengguna dalam mengelola tugas harian mereka dengan fitur sederhana namun fungsional.
-
-Proyek ini diselesaikan secara **individu** oleh **Fikri Anwar**, dengan mensimulasikan seluruh peran tim pengembang sesuai dengan praktik XP.
+<div align="center">
+  <img src="./public/images/homepage-preview.png" alt="Preview TaskEasy" width="800"/>
+  <p><em>💻 Tampilan halaman utama TaskEasy</em></p>
+</div>
 
 ---
 
-## 🧩 Fitur Utama
+## 🎯 Deskripsi Singkat
 
-🔹 Tambah tugas dengan:  
-  ✔️ Judul  
-  ✔️ Deskripsi  
-  ✔️ Prioritas (📉 Low | 📊 Medium | 📈 High)  
-  ✔️ Status (🕒 To-do | 🔧 In-progress | ✅ Done)
+**TaskEasy** adalah aplikasi web untuk mengelola daftar tugas dengan antarmuka yang bersih, intuitif, dan responsif. Dibuat dalam waktu **1 minggu** sebagai bagian dari tugas mata kuliah **Extreme Programming**, aplikasi ini mencerminkan penerapan praktik XP secara nyata—mulai dari TDD, CI/CD, sampai simulasi pair programming.
 
-🔹 Lihat daftar tugas tersortir berdasarkan **prioritas**  
-🔹 Perbarui dan hapus tugas  
-🔹 Data tersimpan otomatis di **local storage**  
-🔹 UI responsif & modern menggunakan **React + Tailwind CSS**  
-🔹 Dapat diakses online melalui **Vercel Hosting**
+> 📌 Proyek ini dikembangkan **individu** oleh **Fikri Anwar**, yang memerankan seluruh bagian tim pengembang sesuai dengan semangat Extreme Programming.
 
 ---
 
-## 🔧 Teknologi yang Digunakan
+## 🧩 Fitur Unggulan
 
-| Kategori      | Teknologi         |
-|---------------|------------------|
-| Frontend      | React + TypeScript |
-| Styling       | Tailwind CSS |
-| Testing       | Jest (TDD) |
-| Build Tool    | Next.js |
-| CI/CD         | GitHub Actions |
-| Hosting       | Vercel |
-| Data Storage  | Local Storage |
+✅ Tambah tugas lengkap (judul, deskripsi, prioritas, status)  
+📋 Kelola tugas: ubah, hapus, filter by prioritas  
+💾 Data otomatis tersimpan di browser (local storage)  
+🎨 UI modern dan responsif (Tailwind + React)  
+🚀 Deployment instan via **Vercel**  
+🧪 Unit test berbasis **TDD** menggunakan **Jest**
 
 ---
 
-## 🛠️ Praktik XP yang Diimplementasikan
+## 🧪 Penerapan Praktik Extreme Programming
 
-| Praktik XP                | Implementasi                                                                 |
-|---------------------------|------------------------------------------------------------------------------|
-| **Pair Programming**      | Disimulasikan melalui pembagian waktu kerja antara "driver" dan "navigator". |
-| **TDD**                   | Penulisan unit test menggunakan **Jest** sebelum implementasi fitur.        |
-| **Continuous Integration**| Menggunakan **GitHub Actions** untuk menjalankan test otomatis saat push.   |
-| **Small Releases**        | Fitur dirilis dan diuji setiap hari dengan commit harian yang teratur.      |
-| **Refactoring**           | Refactoring berkala menjaga kualitas dan keterbacaan kode.                  |
-| **Customer Collaboration**| Disimulasikan sebagai feedback pengguna harian oleh developer sendiri.      |
-| **Planning Game**         | User story dibuat dan diberi estimasi story point untuk prioritisasi tugas. |
-
----
-
-## 📋 User Stories & Estimasi
-
-| 🆔 | User Story                                                                                  | 🧮 Estimasi |
-|-----|---------------------------------------------------------------------------------------------|------------|
-| 1️⃣ | Sebagai pengguna, saya dapat membuat tugas dengan detail lengkap agar bisa melacak pekerjaan | 3 poin     |
-| 2️⃣ | Sebagai pengguna, saya ingin melihat daftar tugas tersortir berdasarkan prioritas           | 2 poin     |
-| 3️⃣ | Sebagai pengguna, saya ingin mengedit tugas agar dapat menyesuaikan dengan perubahan        | 2 poin     |
-| 4️⃣ | Sebagai pengguna, saya ingin menghapus tugas yang sudah tidak relevan                      | 1 poin     |
-| 5️⃣ | Sebagai pengguna, saya ingin data tersimpan otomatis agar tidak hilang saat refresh         | 2 poin     |
+| Praktik XP            | Implementasi                                                                  |
+|------------------------|-------------------------------------------------------------------------------|
+| **TDD**               | Test ditulis terlebih dahulu menggunakan **Jest**, baru implementasi kode.     |
+| **Refactoring**       | Perbaikan kode rutin tanpa mengubah fungsionalitas.                           |
+| **Pair Programming**  | Disimulasikan melalui dua mode kerja: driver & navigator dalam timeboxing.    |
+| **Planning Game**     | Estimasi tiap user story dan implementasi berdasarkan prioritas.              |
+| **Continuous Integration** | Otomatisasi pengujian dan build melalui GitHub Actions.                    |
+| **Small Releases**    | Rilis dan commit setiap harinya dengan fitur kecil yang stabil.               |
+| **Customer Feedback** | Simulasi pengguna melalui uji coba harian oleh developer.                     |
 
 ---
 
-## 📁 Struktur Proyek
+## 📋 Daftar User Story & Estimasi
+
+| 🆔 | User Story                                                                                   | ⏱️ Estimasi |
+|-----|----------------------------------------------------------------------------------------------|------------|
+| 1️⃣ | Sebagai pengguna, saya bisa membuat tugas dengan lengkap                                     | 3 poin     |
+| 2️⃣ | Sebagai pengguna, saya bisa melihat daftar tugas berdasarkan prioritas                      | 2 poin     |
+| 3️⃣ | Sebagai pengguna, saya bisa mengedit tugas                                                   | 2 poin     |
+| 4️⃣ | Sebagai pengguna, saya bisa menghapus tugas yang tidak diperlukan                            | 1 poin     |
+| 5️⃣ | Sebagai pengguna, saya ingin tugas tetap tersimpan meski refresh halaman                     | 2 poin     |
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+| Kategori       | Teknologi             |
+|----------------|-----------------------|
+| Frontend       | React + TypeScript    |
+| Styling        | Tailwind CSS          |
+| Testing        | Jest                  |
+| Build Tool     | Next.js               |
+| Deployment     | Vercel                |
+| CI/CD          | GitHub Actions        |
+| Data Storage   | Local Storage (Browser) |
+
+---
+
+## 📁 Struktur Direktori
 
 TaskEasy/
-├── app/ # Halaman utama dan routing
-├── components/ # UI reusable (TaskForm, TaskList, dsb.)
+├── app/ # Routing & halaman utama
+├── components/ # Komponen UI (TaskList, TaskForm, dll)
 ├── hooks/ # Custom React hooks
-├── lib/ # Konfigurasi penyimpanan lokal
-├── public/ # Aset publik
-├── styles/ # Styling global
-├── types/ # Tipe data TypeScript
-├── utils/ # Fungsi bantu (sort, helper)
-├── tests/ # Unit test (TDD)
+├── lib/ # Logic penyimpanan localStorage
+├── public/images/ # Screenshot & aset publik
+├── styles/ # Konfigurasi global Tailwind
+├── types/ # Definisi tipe data TypeScript
+├── utils/ # Helper functions
+├── tests/ # Unit testing (Jest)
 ├── .github/workflows/ # CI pipeline
 ├── package.json # Dependency management
-└── tailwind.config.ts # Tailwind configuration
+└── tailwind.config.ts # Tailwind config
 
 ---
 
-## 🧪 Menjalankan Project
+## 🚀 Menjalankan Aplikasi Lokal
 
+### 1. Clone repositori
+git clone https://github.com/fikrianwar0/Task-App.git
+cd Task-App
+
+### 2. Install dependencies
 npm install --legacy-peer-deps
+
+### 3. Jalankan server lokal
 npm run dev
-
-🚀 Jalankan Secara Lokal
-
-Clone repo:
-- git clone https://github.com/fikrianwar0/Task-App.git
-- cd Task-App
-
-Install dependency:
-- npm install
-- Start development server:
 Akses di browser: http://localhost:3000
 
-⚙️ Continuous Integration
-CI/CD dijalankan otomatis setiap ada perubahan pada kode melalui GitHub Actions, dengan pipeline yang menjalankan npm test.
+📸 Preview Aplikasi
+![image](https://github.com/user-attachments/assets/eddc12f8-f7ae-49f9-84f8-f5ef974df72e)
 
-📂 Path: .github/workflows/ci.yml
+---
 
-🧾 Ringkasan Refleksi
-✅ Keberhasilan:
+👤 Tentang Saya
 
-Berhasil membangun aplikasi sepenuhnya dalam waktu seminggu.
-
-Praktik XP membantu menjaga kualitas & fokus pengembangan.
-
-⚠️ Tantangan:
-
-Menyimulasikan semua peran XP dalam pengerjaan individu.
-
-Konsistensi TDD saat pengembangan cepat.
-
-💡 Solusi:
-
-Menggunakan timeboxing antara coding & review sebagai simulasi peran.
-
-Menulis test untuk logika utama, lalu refactor setelah validasi.
-
-🎤 Presentasi & Demo
-🎥 Demo Langsung: task-app-snowy-seven.vercel.app
-🧭 Durasi: ±5 menit
-📊 Penjelasan fitur utama dan penerapan XP
-🎯 Fokus pada pengembangan berkelanjutan dan integrasi berkelanjutan (CI)
-
-👤 Tentang Pengembang
-Nama: Fikri Anwar
-
-NIM: 231112145
-
-Kampus: Universitas Muhammadiyah Sidoarjo
-
-Mata Kuliah: Extreme Programming
-
-Dosen Pengampu: (disesuaikan jika perlu)
+| Informasi      | Detail                            |
+| -------------- | --------------------------------- |
+| Nama           | Fikri Anwar                       |
+| NIM            | 231112145                         |
+| Universitas    | Universitas Muhammadiyah Sidoarjo |
+| Mata Kuliah    | Extreme Programming               |
+| Dosen Pengampu | *(Isi jika diperlukan)*           |
 
 📄 Lisensi
-Proyek ini dikembangkan hanya untuk tujuan akademik. Silakan gunakan kembali dengan mencantumkan atribusi yang sesuai.
-
-Terima kasih telah membaca dokumentasi ini! 🎉
-Jangan lupa cek aplikasinya di task-app-snowy-seven.vercel.app
+Proyek ini dibuat untuk keperluan akademik. Bebas digunakan dengan tetap mencantumkan atribusi kepada pembuat.
