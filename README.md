@@ -1,54 +1,70 @@
 <h1 align="center">🚀 TaskEasy – Aplikasi Manajemen Tugas Modern</h1>
 
 <p align="center">
-  <em>Dibuat oleh: Fikri Anwar (NIM 231112145) – Extreme Programming</em><br/>
+  <img src="https://img.shields.io/badge/Status-Selesai-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Built%20With-React-blue?style=flat-square&logo=react"/>
+  <img src="https://img.shields.io/badge/Deployed%20On-Vercel-black?style=flat-square&logo=vercel"/>
+</p>
+
+<p align="center">
+  <em>Dibuat oleh: <strong>Fikri Anwar</strong> (NIM 231112145) — Extreme Programming</em><br/>
   🌐 <strong>Live Demo:</strong> <a href="https://task-app-snowy-seven.vercel.app/" target="_blank">task-app-snowy-seven.vercel.app</a>
 </p>
 
 ---
 
-## 🎯 Deskripsi Singkat
+## 🎯 Deskripsi Proyek
 
-**TaskEasy** adalah aplikasi web untuk mengelola daftar tugas dengan antarmuka yang bersih, intuitif, dan responsif. Dibuat dalam waktu **1 minggu** sebagai bagian dari tugas mata kuliah **Extreme Programming**, aplikasi ini mencerminkan penerapan praktik XP secara nyata—mulai dari TDD, CI/CD, sampai simulasi pair programming.
+**TaskEasy** adalah aplikasi manajemen tugas modern berbasis web dengan antarmuka bersih, intuitif, dan ramah pengguna. Proyek ini dikembangkan dalam waktu **1 minggu** sebagai tugas mata kuliah **Extreme Programming**, dengan menerapkan praktik XP secara nyata: TDD, CI/CD, refactoring, dan simulasi pair programming.
 
-> 📌 Proyek ini dikembangkan **individu** oleh **Fikri Anwar**, yang memerankan seluruh bagian tim pengembang sesuai dengan semangat Extreme Programming.
-
----
-
-## 🧩 Fitur Unggulan
-
-✅ Tambah tugas lengkap (judul, deskripsi, prioritas, status)  
-📋 Kelola tugas: ubah, hapus, filter by prioritas  
-💾 Data otomatis tersimpan di browser (local storage)  
-🎨 UI modern dan responsif (Tailwind + React)  
-🚀 Deployment instan via **Vercel**  
-🧪 Unit test berbasis **TDD** menggunakan **Jest**
+> 💡 Dikerjakan **sendiri** oleh **Fikri Anwar**, yang memerankan seluruh peran tim pengembang secara individual.
 
 ---
 
-## 🧪 Penerapan Praktik Extreme Programming
+## 📸 Cuplikan Aplikasi
 
-| Praktik XP            | Implementasi                                                                  |
-|------------------------|-------------------------------------------------------------------------------|
-| **TDD**               | Test ditulis terlebih dahulu menggunakan **Jest**, baru implementasi kode.     |
-| **Refactoring**       | Perbaikan kode rutin tanpa mengubah fungsionalitas.                           |
-| **Pair Programming**  | Disimulasikan melalui dua mode kerja: driver & navigator dalam timeboxing.    |
-| **Planning Game**     | Estimasi tiap user story dan implementasi berdasarkan prioritas.              |
-| **Continuous Integration** | Otomatisasi pengujian dan build melalui GitHub Actions.                    |
-| **Small Releases**    | Rilis dan commit setiap harinya dengan fitur kecil yang stabil.               |
-| **Customer Feedback** | Simulasi pengguna melalui uji coba harian oleh developer.                     |
+<p align="center">
+  <img src="public/images/screenshot-homepage.png" alt="Tampilan TaskEasy" width="100%" style="border-radius: 8px; box-shadow: 0px 4px 12px rgba(0,0,0,0.1);"/>
+</p>
 
 ---
 
-## 📋 Daftar User Story & Estimasi
+## 🧩 Fitur Utama
+
+- ✅ Tambah tugas lengkap: judul, deskripsi, prioritas, status
+- 📝 Edit & hapus tugas dengan mudah
+- 🔍 Sortir tugas berdasarkan **prioritas**
+- 💾 Penyimpanan lokal (localStorage)
+- 📱 UI modern dan **responsif** (React + Tailwind CSS)
+- 🧪 Unit testing berbasis **TDD** (Jest)
+- 🚀 Deployment otomatis ke **Vercel**
+- 🔄 Integrasi berkelanjutan via **GitHub Actions**
+
+---
+
+## 🧪 Praktik Extreme Programming (XP)
+
+| 🔧 Praktik XP            | ✅ Implementasi                                                                 |
+|--------------------------|--------------------------------------------------------------------------------|
+| **Test-Driven Development** | Menulis test sebelum implementasi fitur utama (menggunakan Jest)            |
+| **Refactoring**          | Perbaikan struktur kode tanpa mengubah hasil akhir                            |
+| **Pair Programming**     | Disimulasikan via timeboxing: mode driver & navigator secara bergantian       |
+| **Planning Game**        | Penulisan & estimasi user story harian                                         |
+| **Continuous Integration** | Workflow otomatis testing & build via GitHub Actions                         |
+| **Small Releases**       | Commit fitur kecil setiap hari                                                 |
+| **Customer Feedback**    | Simulasi uji coba dan perbaikan dari perspektif pengguna harian                |
+
+---
+
+## 📋 User Stories & Estimasi
 
 | 🆔 | User Story                                                                                   | ⏱️ Estimasi |
 |-----|----------------------------------------------------------------------------------------------|------------|
-| 1️⃣ | Sebagai pengguna, saya bisa membuat tugas dengan lengkap                                     | 3 poin     |
-| 2️⃣ | Sebagai pengguna, saya bisa melihat daftar tugas berdasarkan prioritas                      | 2 poin     |
-| 3️⃣ | Sebagai pengguna, saya bisa mengedit tugas                                                   | 2 poin     |
-| 4️⃣ | Sebagai pengguna, saya bisa menghapus tugas yang tidak diperlukan                            | 1 poin     |
-| 5️⃣ | Sebagai pengguna, saya ingin tugas tetap tersimpan meski refresh halaman                     | 2 poin     |
+| 1️⃣ | Sebagai pengguna, saya bisa membuat tugas dengan detail lengkap                             | 3 poin     |
+| 2️⃣ | Sebagai pengguna, saya bisa melihat tugas berdasarkan prioritas                             | 2 poin     |
+| 3️⃣ | Sebagai pengguna, saya bisa mengedit tugas yang sudah dibuat                                | 2 poin     |
+| 4️⃣ | Sebagai pengguna, saya bisa menghapus tugas yang tidak diperlukan                           | 1 poin     |
+| 5️⃣ | Sebagai pengguna, saya ingin data tetap tersimpan saat halaman direfresh                    | 2 poin     |
 
 ---
 
@@ -60,20 +76,20 @@
 | Styling        | Tailwind CSS          |
 | Testing        | Jest                  |
 | Build Tool     | Next.js               |
-| Deployment     | Vercel                |
 | CI/CD          | GitHub Actions        |
-| Data Storage   | Local Storage (Browser) |
+| Deployment     | Vercel                |
+| Storage        | Browser LocalStorage  |
 
 ---
 
 ## 📁 Struktur Direktori
 
-```plaintext
+```bash
 TaskEasy/
-├── app/
+├── app/                    # Halaman utama & routing
 │   ├── layout.tsx
 │   └── page.tsx
-├── components/
+├── components/             # Komponen UI (Form, List, Item)
 │   ├── TaskForm.tsx
 │   ├── TaskList.tsx
 │   └── TaskItem.tsx
@@ -98,7 +114,6 @@ TaskEasy/
 │       └── ci.yml
 ├── package.json
 └── tailwind.config.ts
----
 ```
 
 ## 🚀 Menjalankan Aplikasi Lokal
@@ -138,15 +153,20 @@ Akses di browser: http://localhost:3000
 
 ---
 
-📄 Lisensi
-🛡️ Hak Cipta © 2025 – Fikri Anwar
-Proyek ini dikembangkan khusus untuk keperluan akademik dalam mata kuliah Extreme Programming di Universitas Muhammadiyah Sidoarjo.
+## 📄 Lisensi
 
-📘 Anda diperbolehkan untuk menggunakan, memodifikasi, dan menyebarluaskan kode ini untuk keperluan pembelajaran atau pengembangan pribadi, dengan syarat mencantumkan atribusi yang jelas kepada pengembang asli.
+> 🛡️ **Hak Cipta © 2025 – Fikri Anwar (NIM 231112145)**  
+> Proyek ini dikembangkan sebagai bagian dari pemenuhan tugas mata kuliah **Extreme Programming** di **Universitas Muhammadiyah Sidoarjo**.
 
-🔖 Catatan:
-Jangan digunakan untuk tujuan komersial tanpa izin tertulis.
+🔓 **Izin Penggunaan:**
+Kode sumber dan aset dalam proyek ini **boleh digunakan ulang, dimodifikasi, dan dibagikan** secara bebas untuk **keperluan non-komersial dan edukasi**, dengan syarat:
 
-Cantumkan tautan ke repositori asli jika digunakan ulang atau dijadikan referensi.
+- 📝 Mencantumkan atribusi yang jelas kepada pembuat asli (Fikri Anwar).
+- 🔗 Menyertakan tautan kembali ke repositori atau aplikasi asli.
+- 🚫 Tidak digunakan untuk tujuan komersial tanpa izin tertulis.
 
-"Ilmu yang dibagikan dengan niat baik akan kembali berlipat ganda." ✨
+📘 Lisensi ini bersifat terbuka dan fleksibel, mendukung kolaborasi dan pembelajaran terbuka dalam semangat pengembangan perangkat lunak bebas dan pendidikan.
+
+---
+
+> _“Bagikan ilmu, tebarkan manfaat. Satu baris kode hari ini bisa menjadi solusi bagi banyak orang esok hari.”_ ✨
