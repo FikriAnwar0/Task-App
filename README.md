@@ -139,5 +139,14 @@ Akses di browser: http://localhost:3000
 ---
 
 📄 Lisensi
+🛡️ Hak Cipta © 2025 – Fikri Anwar
+Proyek ini dikembangkan khusus untuk keperluan akademik dalam mata kuliah Extreme Programming di Universitas Muhammadiyah Sidoarjo.
 
-Proyek ini dibuat untuk keperluan akademik. Bebas digunakan dengan tetap mencantumkan atribusi kepada pembuat.
+📘 Anda diperbolehkan untuk menggunakan, memodifikasi, dan menyebarluaskan kode ini untuk keperluan pembelajaran atau pengembangan pribadi, dengan syarat mencantumkan atribusi yang jelas kepada pengembang asli.
+
+🔖 Catatan:
+Jangan digunakan untuk tujuan komersial tanpa izin tertulis.
+
+Cantumkan tautan ke repositori asli jika digunakan ulang atau dijadikan referensi.
+
+"Ilmu yang dibagikan dengan niat baik akan kembali berlipat ganda." ✨
