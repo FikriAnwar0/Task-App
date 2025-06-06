@@ -5,11 +5,6 @@
   🌐 <strong>Live Demo:</strong> <a href="https://task-app-snowy-seven.vercel.app/" target="_blank">task-app-snowy-seven.vercel.app</a>
 </p>
 
-<div align="center">
-  <img src="./public/images/homepage-preview.png" alt="Preview TaskEasy" width="800"/>
-  <p><em>💻 Tampilan halaman utama TaskEasy</em></p>
-</div>
-
 ---
 
 ## 🎯 Deskripsi Singkat
@@ -112,11 +107,15 @@ TaskEasy/
 ```bash
 git clone https://github.com/fikrianwar0/Task-App.git
 cd Task-App
+```
 
 ### 2. Install dependencies
+```bash
 npm install --legacy-peer-deps
+```
 
 ### 3. Jalankan server lokal
+```bash
 npm run dev
 Akses di browser: http://localhost:3000
 ```
