@@ -103,6 +103,7 @@ npm run dev
 Akses di browser: http://localhost:3000
 
 📸 Preview Aplikasi
+
 ![image](https://github.com/user-attachments/assets/eddc12f8-f7ae-49f9-84f8-f5ef974df72e)
 
 ---
@@ -117,5 +118,8 @@ Akses di browser: http://localhost:3000
 | Mata Kuliah    | Extreme Programming               |
 | Dosen Pengampu | *(Isi jika diperlukan)*           |
 
+---
+
 📄 Lisensi
+
 Proyek ini dibuat untuk keperluan akademik. Bebas digunakan dengan tetap mencantumkan atribusi kepada pembuat.
