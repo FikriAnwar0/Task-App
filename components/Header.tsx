@@ -67,12 +67,12 @@ export const Header = ({ isDarkMode, onToggleTheme, onExport, onImport }: Header
           <div className="space-y-1">
             <div className="flex items-center gap-3">
               <h1 className="text-3xl font-black bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-700 bg-clip-text text-transparent">
-                TaskFlow Pro
+                Task Flow
               </h1>
               <div className="flex items-center gap-1">
                 <Shield className="h-4 w-4 text-blue-500" />
                 <span className="text-xs font-bold text-blue-600 bg-blue-100 dark:bg-blue-900/30 px-2 py-1 rounded-full">
-                  PREMIUM
+                  EASY
                 </span>
               </div>
             </div>
