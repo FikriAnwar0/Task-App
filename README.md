@@ -8,7 +8,7 @@
 
 <p align="center">
   <em>Dibuat oleh: <strong>Fikri Anwar</strong> (NIM 231112145) — Extreme Programming</em><br/>
-  🌐 <strong>Live Demo:</strong> <a href="https://github.com/user-attachments/assets/eddc12f8-f7ae-49f9-84f8-f5ef974df72e" target="_blank">task-app-snowy-seven.vercel.app</a>
+  🌐 <strong>Live Demo:</strong> <a href="https://task-app-snowy-seven.vercel.app/" target="_blank">task-app-snowy-seven.vercel.app</a>
 </p>
 
 ---
@@ -24,7 +24,8 @@
 ## 📸 Cuplikan Aplikasi
 
 <p align="center">
-  <img src="public/images/screenshot-homepage.png" alt="Tampilan TaskEasy" width="100%" style="border-radius: 8px; box-shadow: 0px 4px 12px rgba(0,0,0,0.1);"/>
+  <img src="![image](https://github.com/user-attachments/assets/4bbae90b-d87b-4834-9014-e544f1b496dc)
+" alt="Tampilan TaskEasy" width="100%" style="border-radius: 8px; box-shadow: 0px 4px 12px rgba(0,0,0,0.1);"/>
 </p>
 
 ---
