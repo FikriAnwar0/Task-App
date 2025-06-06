@@ -3,8 +3,8 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Easy Task Manager',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  description: 'Created By Fikri Anwar',
+  generator: 'Fikri Anwar',
 }
 
 export default function RootLayout({
