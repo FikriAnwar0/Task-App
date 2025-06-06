@@ -73,8 +73,6 @@
 
 ## 📁 Struktur Direktori
 
-## 📁 Struktur Direktori
-
 ```plaintext
 TaskEasy/
 ├── app/
@@ -106,10 +104,12 @@ TaskEasy/
 ├── package.json
 └── tailwind.config.ts
 ---
+```
 
 ## 🚀 Menjalankan Aplikasi Lokal
 
 ### 1. Clone repositori
+```bash
 git clone https://github.com/fikrianwar0/Task-App.git
 cd Task-App
 
@@ -119,6 +119,7 @@ npm install --legacy-peer-deps
 ### 3. Jalankan server lokal
 npm run dev
 Akses di browser: http://localhost:3000
+```
 
 📸 Preview Aplikasi
 
