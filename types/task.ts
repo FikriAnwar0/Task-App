@@ -9,7 +9,7 @@ export interface Task {
   createdAt: string
   updatedAt: string
   completedAt?: string
-  timeSpent: number // in minutes
+  timeSpent: number
   tags: string[]
 }
 

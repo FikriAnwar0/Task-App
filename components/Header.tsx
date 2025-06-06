@@ -79,7 +79,7 @@ export const Header = ({ isDarkMode, onToggleTheme, onExport, onImport }: Header
             <div className="flex items-center gap-2">
               <Zap className="h-3 w-3 text-yellow-500" />
               <p className={`text-sm font-semibold ${isDarkMode ? "text-slate-300" : "text-gray-700"} tracking-wide`}>
-                Manajemen Tugas Ultra Modern & Produktif
+                Manajemen Semua Tugas Tugas Kamu!
               </p>
             </div>
           </div>
