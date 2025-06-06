@@ -8,7 +8,7 @@
 
 <p align="center">
   <em>Dibuat oleh: <strong>Fikri Anwar</strong> (NIM 231112145) — Extreme Programming</em><br/>
-  🌐 <strong>Live Demo:</strong> <a href="https://task-app-snowy-seven.vercel.app/" target="_blank">task-app-snowy-seven.vercel.app</a>
+  🌐 <strong>Live Demo:</strong> <a href="https://github.com/user-attachments/assets/eddc12f8-f7ae-49f9-84f8-f5ef974df72e" target="_blank">task-app-snowy-seven.vercel.app</a>
 </p>
 
 ---
@@ -134,10 +134,6 @@ npm install --legacy-peer-deps
 npm run dev
 Akses di browser: http://localhost:3000
 ```
-
-📸 Preview Aplikasi
-
-![image](https://github.com/user-attachments/assets/eddc12f8-f7ae-49f9-84f8-f5ef974df72e)
 
 ---
 
