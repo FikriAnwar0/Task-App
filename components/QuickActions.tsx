@@ -12,15 +12,10 @@ interface QuickActionsProps {
 }
 
 export const QuickActions = ({ tasks, onFilterChange, isDarkMode }: QuickActionsProps) => {
-  // Helper function untuk mengecek apakah tugas terlambat
   const isTaskOverdue = (task: Task): boolean => {
-    // Jika tidak ada tanggal jatuh tempo, tidak bisa terlambat
     if (!task.dueDate) return false
-
-    // Jika tugas sudah selesai, tidak dianggap terlambat
     if (task.status === "selesai") return false
 
-    // Bandingkan tanggal dengan hari ini (reset ke 00:00:00)
     const today = new Date()
     today.setHours(0, 0, 0, 0)
 
@@ -30,7 +25,6 @@ export const QuickActions = ({ tasks, onFilterChange, isDarkMode }: QuickActions
     return dueDate < today
   }
 
-  // Helper function untuk tugas selesai hari ini
   const isCompletedToday = (task: Task): boolean => {
     if (!task.completedAt || task.status !== "selesai") return false
 
@@ -44,26 +38,14 @@ export const QuickActions = ({ tasks, onFilterChange, isDarkMode }: QuickActions
     )
   }
 
-  // Menghitung jumlah semua tugas
   const allTasks = tasks.length
-
-  // Filter tugas terlambat dengan logika yang lebih ketat
   const overdueTasks = tasks.filter(isTaskOverdue)
-
-  // Filter tugas prioritas tinggi yang belum selesai
   const highPriorityTasks = tasks.filter((task) => task.priority === "tinggi" && task.status !== "selesai")
-
-  // Filter tugas yang sedang dalam proses
   const inProgressTasks = tasks.filter((task) => task.status === "proses")
-
-  // Filter tugas yang selesai hari ini
   const completedToday = tasks.filter(isCompletedToday)
-
-  // Hitung tingkat penyelesaian
   const completedTasks = tasks.filter((task) => task.status === "selesai")
   const completionRate = tasks.length > 0 ? Math.round((completedTasks.length / tasks.length) * 100) : 0
 
-  // Konfigurasi aksi cepat
   const quickActions = [
     {
       title: "Semua Tugas",
